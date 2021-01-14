@@ -1,7 +1,7 @@
 FROM python:3.9-alpine3.12
 
 ARG BUILD_DATE
-ARG VERSION=1.0
+ARG VERSION=1.0.0
 LABEL build_version="yggdrasilcommodities.com version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL MAINTAINER="it@yggdrasilcommodities.com"
 
